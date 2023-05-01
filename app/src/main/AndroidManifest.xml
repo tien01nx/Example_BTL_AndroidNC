@@ -17,6 +17,9 @@
         android:theme="@style/Theme.Example_BTL_AndroidNC"
         tools:targetApi="31">
         <activity
+            android:name=".students.addItem.RankActivity"
+            android:exported="false" />
+        <activity
             android:name=".students.addItem.AttendanceStudents"
             android:exported="false" />
         <activity
